@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TURME — Senior Capstone Project</title>
+<meta name="description" content="Public project website for TURME, a senior capstone project team. Reports, visuals and team information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="#top">TURME</a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="#project">Project</a></li>
+        <li><a href="#visuals">Visuals</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#reports">Reports</a></li>
+        <li><a href="#advisor">Advisor</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================== HERO ============================== -->
+  <section id="top" class="section hero">
+    <div class="wrap">
+      <p class="eyebrow">Senior capstone project · 2026</p>
+
+      <!-- TODO(content): replace each member name below with the real first + last name; the letters must stay T U R M E in this order -->
+      <div class="wordmark">
+        <a class="wordmark__letter" href="#member-1"><span aria-hidden="true">T</span><span class="wordmark__name">Member 1</span></a>
+        <a class="wordmark__letter" href="#member-2"><span aria-hidden="true">U</span><span class="wordmark__name">Member 2</span></a>
+        <a class="wordmark__letter" href="#member-3"><span aria-hidden="true">R</span><span class="wordmark__name">Member 3</span></a>
+        <a class="wordmark__letter" href="#member-4"><span aria-hidden="true">M</span><span class="wordmark__name">Member 4</span></a>
+        <a class="wordmark__letter" href="#member-5"><span aria-hidden="true">E</span><span class="wordmark__name">Member 5</span></a>
+      </div>
+
+      <!-- TODO(content): replace with the official project title, then delete the TBD chip -->
+      <h1 class="hero__title">Project Title TBD <span class="tbd">TBD</span></h1>
+
+      <!-- TODO(content): replace with a one-sentence summary of the project (max ~25 words), then delete the TBD chip -->
+      <p class="hero__lead">A one-sentence summary of the project will appear here. <span class="tbd">TBD</span></p>
+
+      <p class="btn-row">
+        <a class="btn" href="#reports">View reports</a>
+        <a class="btn btn--ghost" href="https://github.com/TahaTvln01/TURME_website" target="_blank" rel="noopener">GitHub repository</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================ PROJECT ============================= -->
+  <section id="project" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Section 01</p>
+      <h2>Project</h2>
+
+      <div class="split">
+        <article class="split__col">
+          <h3>The problem</h3>
+          <!-- TODO(content): describe the problem the project addresses in 2-3 sentences, then delete the TBD chip -->
+          <p>A short description of the problem this project addresses will appear here. It will explain who is affected and why the current situation is not good enough. <span class="tbd">TBD</span></p>
+        </article>
+        <article class="split__col">
+          <h3>Our solution</h3>
+          <!-- TODO(content): describe the proposed solution in 2-3 sentences, then delete the TBD chip -->
+          <p>A short description of the proposed solution will appear here. It will explain the approach taken by the team and what the finished system is expected to do. <span class="tbd">TBD</span></p>
+        </article>
+      </div>
+
+      <!-- TODO(content): fill in domain, status and timeline, then delete the TBD chips -->
+      <dl class="glance">
+        <div class="glance__item">
+          <dt>Domain</dt>
+          <dd>To be defined <span class="tbd">TBD</span></dd>
+        </div>
+        <div class="glance__item">
+          <dt>Status</dt>
+          <dd>To be defined <span class="tbd">TBD</span></dd>
+        </div>
+        <div class="glance__item">
+          <dt>Timeline</dt>
+          <dd>To be defined <span class="tbd">TBD</span></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============================ VISUALS ============================= -->
+  <section id="visuals" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Section 02</p>
+      <h2>Visuals</h2>
+      <p class="section__lead">Diagrams and interface designs produced for the project. Select any image to open it at full size.</p>
+
+      <!-- TODO(content): add further figures here as the design work progresses; keep one figure and figcaption per image -->
+      <div class="figures">
+
+        <figure class="figure figure--wide">
+          <a class="figure__frame" href="assets/img/architecture.png" target="_blank" rel="noopener">
+            <img src="assets/img/architecture.png" width="762" height="1100" decoding="async"
+                 alt="System architecture diagram showing the client application, the API gateway, the processing services and the data stores.">
+          </a>
+          <figcaption>System architecture diagram</figcaption>
+        </figure>
+
+        <figure class="figure">
+          <a class="figure__frame" href="assets/img/E1_2_3.png" target="_blank" rel="noopener">
+            <img src="assets/img/E1_2_3.png" width="1226" height="703" loading="lazy" decoding="async"
+                 alt="User interface designs for screens 1 to 3.">
+          </a>
+          <figcaption>UI design — screens 1–3</figcaption>
+        </figure>
+
+        <figure class="figure">
+          <a class="figure__frame" href="assets/img/E4_5_6.png" target="_blank" rel="noopener">
+            <img src="assets/img/E4_5_6.png" width="1223" height="700" loading="lazy" decoding="async"
+                 alt="User interface designs for screens 4 to 6.">
+          </a>
+          <figcaption>UI design — screens 4–6</figcaption>
+        </figure>
+
+        <figure class="figure">
+          <a class="figure__frame" href="assets/img/E7.png" target="_blank" rel="noopener">
+            <img src="assets/img/E7.png" width="545" height="747" loading="lazy" decoding="async"
+                 alt="User interface design for screen 7.">
+          </a>
+          <figcaption>UI design — screen 7</figcaption>
+        </figure>
+
+      </div>
+
+      <!-- TODO(content): once the demo video is recorded, replace this panel with a link to it, then delete the TBD chip -->
+      <div class="panel panel--video">
+        <p class="eyebrow">Video</p>
+        <p class="panel__text">Demo video — coming soon <span class="tbd">TBD</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== TEAM ============================== -->
+  <section id="team" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Section 03</p>
+      <h2>Team</h2>
+      <p class="section__lead">TURME is an acronym of the five members' initials.</p>
+
+      <!-- TODO(content): for each card below, add the photo (assets/img/team/member-N.png), the real name, the role, a two-sentence bio and the LinkedIn URL; then delete the TBD chips -->
+      <ul class="team">
+
+        <li class="card" id="member-1">
+          <div class="card__frame">
+            <img src="assets/img/team/member-1.png" data-fallback="assets/img/team/placeholder.png"
+                 width="640" height="640" loading="lazy" decoding="async" alt="Portrait of team member 1">
+          </div>
+          <h3 class="card__name">Member 1 <span class="tbd">TBD</span></h3>
+          <p class="card__role">Role TBD</p>
+          <p class="card__bio">A two-sentence biography of this team member will appear here. It will cover their focus area on the project and their main academic interests.</p>
+          <p class="card__links"><a class="link-todo" href="#" data-todo="linkedin-1">LinkedIn</a></p>
+        </li>
+
+        <li class="card" id="member-2">
+          <div class="card__frame">
+            <img src="assets/img/team/member-2.png" data-fallback="assets/img/team/placeholder.png"
+                 width="640" height="640" loading="lazy" decoding="async" alt="Portrait of team member 2">
+          </div>
+          <h3 class="card__name">Member 2 <span class="tbd">TBD</span></h3>
+          <p class="card__role">Role TBD</p>
+          <p class="card__bio">A two-sentence biography of this team member will appear here. It will cover their focus area on the project and their main academic interests.</p>
+          <p class="card__links"><a class="link-todo" href="#" data-todo="linkedin-2">LinkedIn</a></p>
+        </li>
+
+        <li class="card" id="member-3">
+          <div class="card__frame">
+            <img src="assets/img/team/member-3.png" data-fallback="assets/img/team/placeholder.png"
+                 width="640" height="640" loading="lazy" decoding="async" alt="Portrait of team member 3">
+          </div>
+          <h3 class="card__name">Member 3 <span class="tbd">TBD</span></h3>
+          <p class="card__role">Role TBD</p>
+          <p class="card__bio">A two-sentence biography of this team member will appear here. It will cover their focus area on the project and their main academic interests.</p>
+          <p class="card__links"><a class="link-todo" href="#" data-todo="linkedin-3">LinkedIn</a></p>
+        </li>
+
+        <li class="card" id="member-4">
+          <div class="card__frame">
+            <img src="assets/img/team/member-4.png" data-fallback="assets/img/team/placeholder.png"
+                 width="640" height="640" loading="lazy" decoding="async" alt="Portrait of team member 4">
+          </div>
+          <h3 class="card__name">Member 4 <span class="tbd">TBD</span></h3>
+          <p class="card__role">Role TBD</p>
+          <p class="card__bio">A two-sentence biography of this team member will appear here. It will cover their focus area on the project and their main academic interests.</p>
+          <p class="card__links"><a class="link-todo" href="#" data-todo="linkedin-4">LinkedIn</a></p>
+        </li>
+
+        <li class="card" id="member-5">
+          <div class="card__frame">
+            <img src="assets/img/team/member-5.png" data-fallback="assets/img/team/placeholder.png"
+                 width="640" height="640" loading="lazy" decoding="async" alt="Portrait of team member 5">
+          </div>
+          <h3 class="card__name">Member 5 <span class="tbd">TBD</span></h3>
+          <p class="card__role">Role TBD</p>
+          <p class="card__bio">A two-sentence biography of this team member will appear here. It will cover their focus area on the project and their main academic interests.</p>
+          <p class="card__links"><a class="link-todo" href="#" data-todo="linkedin-5">LinkedIn</a></p>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================= REPORTS ============================ -->
+  <section id="reports" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Section 04</p>
+      <h2>Reports</h2>
+      <p class="section__lead">All reports are also available in the shared Drive folder.</p>
+
+      <!-- TODO(content): replace every href="#" with a direct, publicly-viewable file link (Anyone with the link → Viewer). Verify each link in a logged-out / private window. -->
+      <div class="table-wrap">
+        <table class="reports">
+          <caption class="visually-hidden">Project reports with PDF and DOCX downloads</caption>
+          <thead>
+            <tr>
+              <th scope="col">Report</th>
+              <th scope="col">PDF</th>
+              <th scope="col">DOCX</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Project Proposal</th>
+              <td><a class="link-todo" href="#" data-todo="proposal-pdf" target="_blank" rel="noopener" aria-label="Project Proposal, PDF">PDF</a></td>
+              <td><a class="link-todo" href="#" data-todo="proposal-docx" target="_blank" rel="noopener" aria-label="Project Proposal, DOCX">DOCX</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Requirements Specification</th>
+              <td><a class="link-todo" href="#" data-todo="requirements-pdf" target="_blank" rel="noopener" aria-label="Requirements Specification, PDF">PDF</a></td>
+              <td><a class="link-todo" href="#" data-todo="requirements-docx" target="_blank" rel="noopener" aria-label="Requirements Specification, DOCX">DOCX</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Design Report</th>
+              <td><a class="link-todo" href="#" data-todo="design-pdf" target="_blank" rel="noopener" aria-label="Design Report, PDF">PDF</a></td>
+              <td><a class="link-todo" href="#" data-todo="design-docx" target="_blank" rel="noopener" aria-label="Design Report, DOCX">DOCX</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Progress / Interim Report</th>
+              <td><a class="link-todo" href="#" data-todo="progress-pdf" target="_blank" rel="noopener" aria-label="Progress and Interim Report, PDF">PDF</a></td>
+              <td><a class="link-todo" href="#" data-todo="progress-docx" target="_blank" rel="noopener" aria-label="Progress and Interim Report, DOCX">DOCX</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Final Report</th>
+              <td><a class="link-todo" href="#" data-todo="final-pdf" target="_blank" rel="noopener" aria-label="Final Report, PDF">PDF</a></td>
+              <td><a class="link-todo" href="#" data-todo="final-docx" target="_blank" rel="noopener" aria-label="Final Report, DOCX">DOCX</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- TODO(content): replace with the shared Drive folder link (Anyone with the link → Viewer) -->
+      <p class="btn-row">
+        <a class="btn btn--ghost" href="#" data-todo="drive-folder" target="_blank" rel="noopener">Open Drive folder</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================= ADVISOR ============================ -->
+  <section id="advisor" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Section 05</p>
+      <h2>Advisor</h2>
+
+      <!-- TODO(content): replace with the advisor's title and full name, then delete the TBD chip -->
+      <div class="panel panel--narrow">
+        <p class="eyebrow">Project advisor</p>
+        <p class="panel__text">To be announced <span class="tbd">TBD</span></p>
+        <p class="panel__muted">Advisor details will be published here.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= CONTACT ============================ -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Section 06</p>
+      <h2>Contact</h2>
+
+      <dl class="contact">
+        <div class="contact__item">
+          <dt>Email</dt>
+          <!-- TODO(content): replace with the shared team email address, in both the href and the link text -->
+          <dd><a href="mailto:team@example.com" data-todo="team-email">team@example.com</a> <span class="tbd">TBD</span></dd>
+        </div>
+        <div class="contact__item">
+          <dt>Repository</dt>
+          <dd><a href="https://github.com/TahaTvln01/TURME_website" target="_blank" rel="noopener">github.com/TahaTvln01/TURME_website</a></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p class="site-footer__mark">© 2026 TURME</p>
+    <!-- TODO(content): update the date below whenever the site content changes -->
+    <p class="site-footer__meta">Senior capstone project · Last updated: 2026-08-05</p>
+  </div>
+</footer>
+
+</body>
+</html>
